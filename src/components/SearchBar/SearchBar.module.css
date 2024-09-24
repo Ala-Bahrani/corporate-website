@@ -1,0 +1,32 @@
+.searchContainer{
+    position: relative;
+
+}
+
+.searchContainer input{
+    padding: 0.3rem 1rem;
+    width: 10rem;
+    background-color: var(--clr-primary-1);
+    outline: none;
+    border:1px solid var(--clr-primary-2);
+    border-radius: 0.5rem;
+    color: var(--clr-white);
+    font-family: var(--ff-primary);
+    transition: all 0.6s linear;
+
+}
+.searchContainer input:focus{
+    width: 20rem;
+}
+.searchContainer input::placeholder{
+    color: var(--clr-white);
+    font-family: var(--ff-primary);
+}
+.searchIcon{
+    color: var(--clr-white);
+    position: absolute;
+    left: 1rem;
+    top:50%;
+    transform: translateY(-50%);
+
+}

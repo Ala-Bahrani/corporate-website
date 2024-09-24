@@ -1,0 +1,67 @@
+
+@import url(../../styles/variables.css);
+.headerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    padding: 1rem 0;
+    background-color: var(--clr-white);
+}
+.headerRight{
+    background-color:var(--clr-primary-1) ;
+    color: var(--clr-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+.headerCenter{
+    display: none;
+}
+.mobileContactItem{
+    margin: 1rem 0;
+}
+.mobileContactItem span:first-of-type{
+    font-weight: bold;
+    margin-right:1rem ;
+}
+.mobileContactItem span:nth-of-type(2){
+    font-family: 'Times New Roman', Times, serif;
+}
+.icon{
+    color: var(--clr-primary-2);
+}
+
+@media screen and (min-width:600px){
+  .tabletContactInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width:900px) {
+    .headerCenter{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+    }
+    .contantItem div{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .contantItem p{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .contantItem span{
+        font-weight: bold;
+    }
+    .tabletContactInfo{
+        display: none;
+    }
+}

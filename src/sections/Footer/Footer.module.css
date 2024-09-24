@@ -1,0 +1,116 @@
+
+.footer{
+    background-color: var(--clr-primary-1);
+    color: var(--clr-white);
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+ 
+}
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.firstColumn p{
+    text-align: justify;
+    line-height: 2rem;
+}
+.navlinks li a{
+    color: var(--clr-white);
+}
+.navlinks li{
+    padding: 0.5rem;
+}
+.thirdColumn ul li{
+    padding: 0.5rem;
+
+}
+.thirdColumnIcon{
+    margin-left: 1rem;
+}
+.bottomFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+form {
+    display: flex;
+    width: 200px; 
+    position: relative;
+  }
+  
+  input {
+    padding: 10px;
+    height: 2.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px;
+    height: 2.5rem;
+    background-color: var(--clr-primary-2);
+    color: var(--clr-white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    font-family: var(--ff-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .socialIcon{
+    display: flex;
+    gap: 1rem;
+  }
+ 
+  .icon{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: var(--clr-primary-2);
+    color: var(--clr-white);
+    font-size: 1rem;
+    
+  }
+  .newsletter h3{
+    margin-bottom: 2rem;
+  }
+
+  @media screen and (min-width:1000px) {
+    .footerContainer{
+        flex-direction: row;
+        gap: 2rem;
+        
+    }
+    .firstColumn{
+        flex:1;
+    }
+    .secondColumn{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .thirdColumn{
+        flex: 1;
+    }
+    .bottomFooter{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+    }
+  
+    .socialIcon{
+        position: absolute;
+        bottom: 0;
+        right: 40%;
+    }
+  }

@@ -1,0 +1,17 @@
+.ServiceItemContainer{
+    background-color: var(--clr-primary-1);
+    padding:3rem 2rem 2rem 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.ServiceItemContainer p{
+    color: var(--clr-white);
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: flex-end;
+}

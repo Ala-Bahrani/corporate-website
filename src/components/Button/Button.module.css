@@ -1,0 +1,8 @@
+.btn{
+    background-color: var(--clr-primary-2);
+    border-radius: var(--radius);
+    color: var(--clr-white);
+    padding:0.5rem 2rem;
+
+   
+}

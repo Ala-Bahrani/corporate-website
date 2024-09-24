@@ -1,0 +1,137 @@
+
+
+/*
+=============== 
+Fonts
+===============
+*/
+@font-face {
+    font-family: "yekan";
+    src: url("../assets/fonts/Yekan.woff2") format("woff2"),
+        url("../assets/fonts/Yekan.woff") format("woff"),
+        url("../assets/fonts/Yekan.ttf") format("truetype")و
+        url("../assets/fonts/Yekan.eot") format("eot");
+}
+
+:root {
+    --clr-primary-1: #0D122C;
+    --clr-primary-2: #2B98D8;
+    --clr-white: #fff;
+    --clr-black: #000;
+    --ff-primary: "yekan", sans-serif;
+    --fs-primary:0.9rem;
+    --transition: all 0.3s linear;
+    --radius: 0.6rem;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --max-width: 1200px;
+}
+
+/*
+=============== 
+Global Styles
+===============
+*/
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--ff-primary);
+    background: var(--clr-white);
+    color: var(--clr-grey-1);
+    line-height: 1.5;
+    color: var(--clr-black);
+    /* font-size: var(--fs-primary); */
+    direction: rtl;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: var(--ff-primary);
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.25rem;
+}
+h4 {
+    font-size: 0.875rem;
+}
+p {
+    margin-bottom: 1.25rem;
+}
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    body {
+        font-size: 1rem;
+        color: var(--clr-black);
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+        line-height: 1;
+    }
+}
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+/*
+=============== 
+Global Styles
+===============
+*/
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.top-header-center{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.top-header-center-content{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

@@ -1,0 +1,45 @@
+
+.section{
+    margin-top: 2rem;
+    background-color: var(--clr-grey-1);
+    
+
+}
+.containerStyle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.statisticSiteContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    gap:2rem;
+    padding: 1.5rem 0;
+}
+.statisticSiteItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+.statisticSiteItem p{
+    color: var(--clr-black);
+}
+@media screen and (min-width:560px) {
+    .statisticSiteContainer{
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        gap:6rem;
+    }
+}
+@media screen and (min-width:768px) {
+    .statisticSiteContainer{
+        grid-template-columns: repeat(4, 1fr);
+        width: 90%;
+        gap:6rem;
+    }
+}

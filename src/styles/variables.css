@@ -1,0 +1,14 @@
+:root {
+    --clr-primary-1: #0D122C;
+    --clr-primary-2: #2B98D8;
+    --clr-grey-1:#D9D9D9;
+    --clr-white: #fff;
+    --clr-black: #000;
+    --ff-primary: "yekan", sans-serif;
+    --fs-primary:0.9rem;
+    --transition: all 0.3s linear;
+    --radius: 0.6rem;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --max-width: 1200px;
+}

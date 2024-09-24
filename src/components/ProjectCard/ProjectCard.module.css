@@ -1,0 +1,94 @@
+.projectCardContainer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1.5rem;
+    justify-items: center;
+    position: relative;
+    cursor: pointer;
+
+}
+.projectImgContainer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.projectImgContainer:hover .overlay{
+    background-color: rgba(43,152,216,0.5);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+
+}
+.projectImgContainer:hover .boxImg{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    color: var(--clr-white);
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.projectImgContainer:hover .boxImg p{
+    display: none;
+}
+
+.projectImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.boxImg{
+    width: 100%;
+    background-color: var(--clr-primary-2);
+    /* height: 83px; */
+    position: absolute;
+    top:10rem;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:0.5rem ;
+
+}
+.boxImg h3 , .boxImg p{
+    color: var(--clr-white);
+}
+
+
+@media screen and (min-width:768px) {
+    .projectCardContainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+    }
+    .boxImg{
+        top:8rem;
+    }
+    .boxImg h3{
+        font-size: 1.25rem;
+    }
+    .boxImg p{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (min-width:1200px) {
+    .projectCardContainer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+    }
+    .boxImg{
+        top:8rem;
+    }
+    .boxImg h3{
+        font-size: 1.25rem;
+    }
+    .boxImg p{
+        font-size: 0.9rem;
+    }
+}

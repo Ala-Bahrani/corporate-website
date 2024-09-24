@@ -1,0 +1,69 @@
+.section{
+    margin-top: 2rem;
+}
+
+/* کانتینر اصلی که اسلایدر در آن قرار دارد */
+.slider {
+    width: 100%;
+    padding:0.5rem 1rem;
+
+}
+
+.swiperContainer{
+    position: relative;
+    }
+
+
+.sliderContainer {
+    position: relative;
+    width: 100%;
+}
+
+.customNext, .customPrev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--clr-white);
+    color: var(--clr-primary-2);;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--clr-primary-2);
+    cursor: pointer;
+    z-index: 10;
+    font-size: 1rem;
+}
+
+.customNext {
+    right: -30px; /* دکمه next خارج از اسلایدر */
+}
+
+.customPrev {
+    left: -30px; /* دکمه prev خارج از اسلایدر */
+}
+
+.customNext:hover, .customPrev:hover {
+    background-color: var(--clr-primary-2);
+    color: var(--clr-white);
+}
+
+.customNext:disabled, .customPrev:disabled {
+    background-color: #fff;
+    border-color:#ccc ;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+@media screen and (min-width:768px){
+    .customNext {
+        right: -50px; 
+    }
+    
+    .customPrev {
+        left: -50px; 
+    }
+}

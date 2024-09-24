@@ -1,0 +1,35 @@
+.section{
+    margin-top:2rem ;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+@media screen and (min-width:1000px) {
+    .services{
+        grid-template-rows: 200px 200px;
+        grid-template-columns: 250px 100px ;
+        gap: 1rem;
+        grid-template-areas:
+            "a a b c"
+            "a a d e";
+    }
+    .serviceItem1{
+        grid-area: a;
+    }
+    .serviceItem2{
+        grid-area: b;
+    }
+    .serviceItem3{
+        grid-area: c;
+    }
+    .serviceItem4{
+        grid-area: d;
+    }
+    .serviceItem5{
+        grid-area: e;
+    }
+}

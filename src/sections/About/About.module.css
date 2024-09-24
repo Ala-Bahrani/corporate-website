@@ -1,0 +1,26 @@
+.section{
+    margin-top: 2rem;
+}
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem
+}
+
+.aboutDescription{
+    text-align: justify;
+}
+
+.aboutBtnContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+@media screen and (min-width:1200px){
+    .aboutContainer{
+        flex-direction: row;
+  
+    }
+}

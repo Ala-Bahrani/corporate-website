@@ -1,0 +1,76 @@
+
+
+.menuIcon{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menuBarsIcon{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    color:var(--clr-white) ;
+    cursor: pointer;
+    position: absolute;
+    opacity: 1;
+    transition: all 0.5s linear;
+}
+.menuBarsIcon.closeIcon{
+    opacity: 0;
+}
+.menuBarsIcon.rotate{
+    transform: rotate(90deg);
+}
+
+
+.navMenu{
+    opacity: 0;
+    position: absolute;
+    top:4rem;
+    right: 0;
+    background-color: var(--clr-primary-1);
+    width: 100%;
+    padding: 1rem 0;
+    transition: all 0.3s linear;
+    z-index: 1;
+}
+.navMenu.openMenu{
+   opacity: 1;
+
+}
+.navMenu li{
+    padding: 1rem 2.7rem;   
+}
+.navMenu li a{
+    color:var(--clr-white);
+}
+.navMenu li:hover{
+    background-color: var(--clr-primary-2);
+    
+}
+
+
+
+@media screen and (min-width:900px){
+    .menuIcon{
+        display: none;
+    }
+    .navMenu{
+        position: static;
+        opacity: 1;
+        width: 100%;
+        padding: 0;
+    }
+    .navlinks{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 1.5rem;
+    }
+    .navMenu li{
+        padding: 1rem 0.5rem;
+    }
+   
+}

@@ -1,0 +1,25 @@
+.servicesContainer{
+    background-color: var( --clr-grey-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap:1rem;
+    width: 100%;
+    height: 100%;
+}
+.servicesContainer:hover{
+    background-color: var( --clr-primary-2);
+}
+.servicesContainer:hover .servicIcon{
+    color: var(--clr-grey-1);
+}
+.servicIcon{
+    color: var(--clr-primary-2);
+    font-size: 3rem;
+}
+.servicesContainer p{
+    color: var(--clr-black);
+    text-align: center;
+}

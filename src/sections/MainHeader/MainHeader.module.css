@@ -1,0 +1,18 @@
+
+.header{
+    background-color: var(--clr-primary-1);
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    padding: 1rem 0;
+}
+.headerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (min-width:900px) {
+    .header{
+        padding: 0;
+    }
+}
