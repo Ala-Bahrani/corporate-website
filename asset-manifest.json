@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/corporate-website/static/css/main.b6b64491.css",
+    "main.js": "/corporate-website/static/js/main.4695f6e9.js",
+    "static/media/hero.jpg": "/corporate-website/static/media/hero.b31d87a5c172e010a0e9.jpg",
+    "static/media/contact.jpg": "/corporate-website/static/media/contact.b954a9b6f9401e7db3b0.jpg",
+    "static/media/about.jpg": "/corporate-website/static/media/about.fe888140c05e2ce172b3.jpg",
+    "static/media/project-1.jpg": "/corporate-website/static/media/project-1.8da8225250b5d053a0f7.jpg",
+    "static/media/project-2.jpg": "/corporate-website/static/media/project-2.f740adb99fc68c53f029.jpg",
+    "static/media/project-5.jpg": "/corporate-website/static/media/project-5.9aeecc7c1cd8f2516e97.jpg",
+    "static/media/project-6.jpg": "/corporate-website/static/media/project-6.5b617160e48bd6fa388b.jpg",
+    "static/media/project-3.jpg": "/corporate-website/static/media/project-3.fb30f9c4103015fb1485.jpg",
+    "static/media/project-4.jpg": "/corporate-website/static/media/project-4.25b46155b12324c4b7ff.jpg",
+    "static/media/Yekan.ttf": "/corporate-website/static/media/Yekan.f6a0838b6690eaaa2898.ttf",
+    "static/media/blog-2.jpg": "/corporate-website/static/media/blog-2.67dd189c620bfbb8b5f1.jpg",
+    "static/media/blog-3.jpg": "/corporate-website/static/media/blog-3.1d557c25dddc3a2c5d96.jpg",
+    "static/media/Yekan.eot": "/corporate-website/static/media/Yekan.9db58f99bcd38a0e67b6.eot",
+    "static/media/blog-1.jpg": "/corporate-website/static/media/blog-1.1b35bc1eb742f32c6951.jpg",
+    "static/media/Yekan.woff": "/corporate-website/static/media/Yekan.18af8c75ab1951a5e56d.woff",
+    "static/media/Yekan.woff2": "/corporate-website/static/media/Yekan.a62bb3c8f209f478a9e5.woff2",
+    "index.html": "/corporate-website/index.html",
+    "main.b6b64491.css.map": "/corporate-website/static/css/main.b6b64491.css.map",
+    "main.4695f6e9.js.map": "/corporate-website/static/js/main.4695f6e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6b64491.css",
+    "static/js/main.4695f6e9.js"
+  ]
+}
