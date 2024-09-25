@@ -8,7 +8,7 @@ import MainHeader from './sections/MainHeader/MainHeader';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/corporate-website">
          <TopHeader/>
          <MainHeader/>
         <Routes>
