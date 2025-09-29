@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/corporate-website/static/css/main.b6b64491.css",
-    "main.js": "/corporate-website/static/js/main.47c019c6.js",
+    "main.css": "/corporate-website/static/css/main.2c4c95f2.css",
+    "main.js": "/corporate-website/static/js/main.3a7e4846.js",
     "static/media/hero.jpg": "/corporate-website/static/media/hero.b31d87a5c172e010a0e9.jpg",
     "static/media/contact.jpg": "/corporate-website/static/media/contact.b954a9b6f9401e7db3b0.jpg",
     "static/media/about.jpg": "/corporate-website/static/media/about.fe888140c05e2ce172b3.jpg",
@@ -19,11 +19,11 @@
     "static/media/Yekan.woff": "/corporate-website/static/media/Yekan.18af8c75ab1951a5e56d.woff",
     "static/media/Yekan.woff2": "/corporate-website/static/media/Yekan.a62bb3c8f209f478a9e5.woff2",
     "index.html": "/corporate-website/index.html",
-    "main.b6b64491.css.map": "/corporate-website/static/css/main.b6b64491.css.map",
-    "main.47c019c6.js.map": "/corporate-website/static/js/main.47c019c6.js.map"
+    "main.2c4c95f2.css.map": "/corporate-website/static/css/main.2c4c95f2.css.map",
+    "main.3a7e4846.js.map": "/corporate-website/static/js/main.3a7e4846.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6b64491.css",
-    "static/js/main.47c019c6.js"
+    "static/css/main.2c4c95f2.css",
+    "static/js/main.3a7e4846.js"
   ]
 }
