@@ -7,17 +7,19 @@ import Projects from "../sections/Projects/Projects";
 import Services from "../sections/Services/Services";
 import StatisticSite from '../sections/StatisticSite/StatisticSite'
 
-const Batab = () =>{
-    return(
+
+const Batab = () => {
+  
+    return (
         <div>
-            <BelowHeader/>
-            <About/>
-            <Projects/>
-            <StatisticSite/>
-            <Services/>
-            <Blog/>
-            <Contact/>
-            <Footer/>
+            <BelowHeader />
+            <About />
+            <Projects />
+            <StatisticSite />
+            <Services />
+            <Blog />
+            <Contact />
+            <Footer />
         </div>
     )
 }

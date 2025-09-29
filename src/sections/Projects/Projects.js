@@ -10,7 +10,7 @@ const Projects = () => {
         <section className={styles.section} id="projects">
             <Container>
                 <SectionTitle title='پروژه ها' />
-                <div className={styles.cardsContainer}>
+                <div className={styles.cardsContainer} >
                     <ProjectCard />
 
                 </div>
